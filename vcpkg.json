@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    "gtest",
+    "spdlog",
+    "tl-expected",
+    "glaze",
+    {
+      "name": "poco",
+      "features": [
+        "crypto",
+        "netssl"
+      ]
+    }
+  ]
+}
